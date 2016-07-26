@@ -28,6 +28,7 @@ class PositionViewController: UIViewController {
   }
   
   override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
     
     // 动画时长 1 秒，蓝色方块移动到右边对称的位置
     UIView.animateWithDuration(1) { 
